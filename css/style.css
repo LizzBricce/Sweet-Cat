@@ -3,6 +3,10 @@
     src: url('fonts/Retro\ Gaming.ttf'); 
 }
 
+.navbar-toggler-icon {
+    background-image: url("../img/menu.png") !important;
+  }
+
 body {
     text-align: center;
     font-family: 'font_pixel', sans-serif;    
@@ -262,4 +266,5 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 8;
   }
