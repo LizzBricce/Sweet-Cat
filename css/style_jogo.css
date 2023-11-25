@@ -27,6 +27,10 @@ PeachPuff = #FFDAB9 */
     src: url('fonts/Retro\ Gaming.ttf'); 
 }
 
+.navbar-toggler-icon {
+  background-image: url("../img/menu.png") !important;
+}
+
 body {
     text-align: center;
     font-family: 'font_pixel';
@@ -251,6 +255,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 8;
   }
   
   #scroll-to-top:hover {
@@ -330,10 +335,31 @@ a {
     .gatito {
       width: 20%;
       height: auto;
-      top: 18%;
-      left: 10%;
-      transform: translate(-20%, -20%);
+      top: 38%;
+      left: 22%;
+      /* transform: translate(-20%, -20%); */
     }
+
+    @keyframes giraGatinho {
+      from {
+        width: 0px;
+        transform: rotate(0deg);
+      }
+      to {
+        width: 40%;
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes subirTexto{
+      from {
+          top: 350px;
+        }
+        to {
+          top: 40px;
+          left: -22px;
+        }
+  }
   
     .nomeGatinhoh2-iniciarAnimacao {
       left: -10px;
@@ -395,14 +421,6 @@ a {
       display: flex;
       align-items: center;
       justify-content: center;
-    }
-  
-    .gatito {
-      width: 20%;
-      height: auto;
-      top: 18%;
-      left: 10%;
-      transform: translate(-20%, -20%);
     }
   
     .nomeGatinhoh2-iniciarAnimacao {
