@@ -186,8 +186,8 @@ function compararlistas() {
     listaGatinho2.insert("4resposta");
     listaGatinho2.insert("2resposta");
     listaGatinho2.insert("1resposta");
-    listaGatinho1.insert("2resposta");
-    listaGatinho1.insert("3resposta");
+    listaGatinho2.insert("2resposta");
+    listaGatinho2.insert("3resposta");
 
     //castiel
     listaGatinho3.insert("2resposta");
@@ -195,8 +195,8 @@ function compararlistas() {
     listaGatinho3.insert("4resposta");
     listaGatinho3.insert("2resposta");
     listaGatinho3.insert("3resposta");
-    listaGatinho1.insert("1resposta");
-    listaGatinho1.insert("2resposta");
+    listaGatinho3.insert("1resposta");
+    listaGatinho3.insert("2resposta");
 
     // ...
 
