@@ -172,24 +172,32 @@ function compararlistas() {
     const listaGatinho2 = new LinkedList(); //armin
     const listaGatinho3 = new LinkedList(); //castiel
 
-   
+    //lysandre
     listaGatinho1.insert("1resposta");
     listaGatinho1.insert("2resposta");
     listaGatinho1.insert("1resposta");
     listaGatinho1.insert("2resposta"); 
     listaGatinho1.insert("1resposta");
-    
+    listaGatinho1.insert("3resposta");
+    listaGatinho1.insert("4resposta");
+    //armin
     listaGatinho2.insert("1resposta");
     listaGatinho2.insert("3resposta");
     listaGatinho2.insert("4resposta");
-    listaGatinho2.insert("4resposta");
+    listaGatinho2.insert("2resposta");
     listaGatinho2.insert("1resposta");
+    listaGatinho1.insert("2resposta");
+    listaGatinho1.insert("3resposta");
 
+    //castiel
     listaGatinho3.insert("2resposta");
     listaGatinho3.insert("3resposta");
     listaGatinho3.insert("4resposta");
-    listaGatinho3.insert("4resposta");
+    listaGatinho3.insert("2resposta");
     listaGatinho3.insert("3resposta");
+    listaGatinho1.insert("1resposta");
+    listaGatinho1.insert("2resposta");
+
     // ...
 
     // Compare o conteúdo de cada listaGatinho com listaNomesClicados e atribua pontuações
